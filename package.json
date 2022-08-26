@@ -1,7 +1,13 @@
 {
   "name": "zb_front_common",
   "version": "1.0.0",
-  "homepage": "./",
+  "homepage": "https://bigpawn.github.io/zb_front_common",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
